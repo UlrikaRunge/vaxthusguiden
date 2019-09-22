@@ -183,7 +183,7 @@ justify-content: space-around;
 
 
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
 header {
   background-color: black
 }
