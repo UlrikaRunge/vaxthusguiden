@@ -64,10 +64,13 @@ background-size: cover;
 
   font-weight: bold;
   font-family: serif;
+  font
   font-size-adjust: auto;
   font-variant: normal;
 text-align: center;
-
+font-size: 70px;
+margin-top: 20px;
+margin-bottom: 10px;
 
 }
 .puffbild {
@@ -87,7 +90,7 @@ text-align: center;
   margin: auto;
   width: 60%;
   padding: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
 
 display: flex;
 flex-direction: column;
@@ -106,6 +109,7 @@ width: 90%;
 .block p {
   padding-right: 20px;
   padding-bottom: 70px;
+  justify-content: center;
 }
 .block {
   width: 50%;
