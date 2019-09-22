@@ -63,7 +63,7 @@ background-size: cover;
 .rubrik {
 
   font-weight: bold;
-  font-family: serif;
+  font-family: sans-serif;
   font
   font-size-adjust: auto;
   font-variant: normal;
@@ -104,12 +104,13 @@ p {
 width: 100%;
 }
 .block img{
-width: 90%;
+width: 100%;
 }
 .block p {
   padding-right: 20px;
   padding-bottom: 70px;
   justify-content: center;
+  text-align: justify;
 }
 .block {
   width: 50%;
@@ -139,6 +140,7 @@ flex-direction: column;
   align-items: baseline;
 }
 .mellan {
+  text-align: justify;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -148,6 +150,14 @@ flex-direction: column;
 background-color: #ebebe0;
 
 
+}
+.mellan p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mellan h1 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
